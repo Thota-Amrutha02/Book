@@ -1,0 +1,53 @@
+body {
+    background-color: #f0f0f0;
+    font-family: Arial;
+}
+
+.container {
+    
+    background-color: #333;
+    color: white;
+    padding: 20px;
+    border-radius: 15px;
+}
+
+.wing, .side {
+    display: flex; 
+    height: 200px;
+    margin-bottom: 20px;
+}
+
+.fire {
+    background-color: rgb(234, 240, 241);
+    color: black;
+    width: 100%;
+    border-top-right-radius: 10px;
+    border-bottom-right-radius: 10px;
+}
+.mid{
+   
+    color: white;
+    width: 100%;
+    padding: 10px;
+}
+
+.fire h3, .fire p {
+    padding: 10px;
+}
+
+button {
+    padding: 10px;
+    margin: 10px;
+    color: white;
+    background-color: #08519c;
+    border-radius: 10px;
+}
+
+img {
+    width: 150px;
+    height: 100%;
+    border-radius: 15px 0 0 15px;
+}
+.pic{
+    border-radius: 10px;
+}
